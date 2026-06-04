@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class arrayList {
     public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class arrayList {
         System.out.println(list);
 
         //Set element
-        list.set(0,5);
+        list.set(0,4);
         System.out.println(list);
 
         // Delete element
@@ -39,5 +40,9 @@ public class arrayList {
             System.out.print(list.get(i)+" ");
         }
         System.out.println();
+
+        // Sorting
+        Collections.sort(list);
+        System.out.println(list);
     }
 }
