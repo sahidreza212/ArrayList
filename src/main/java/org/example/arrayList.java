@@ -13,5 +13,9 @@ public class arrayList {
         list.add(5);
 
         System.out.println(list);
+
+        // get element
+        int element = list.get(1);
+        System.out.println(element);
     }
 }
