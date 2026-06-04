@@ -21,5 +21,9 @@ public class arrayList {
         // Add in between element
         list.add(1,1);
         System.out.println(list);
+
+        //Set element
+        list.set(0,5);
+        System.out.println(list);
     }
 }
