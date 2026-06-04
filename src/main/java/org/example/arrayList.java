@@ -25,5 +25,9 @@ public class arrayList {
         //Set element
         list.set(0,5);
         System.out.println(list);
+
+        // Delete element
+        list.remove(2);
+        System.out.println(list);
     }
 }
