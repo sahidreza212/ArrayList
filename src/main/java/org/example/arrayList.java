@@ -33,5 +33,11 @@ public class arrayList {
         //Size
         int size = list.size();
         System.out.println(size);
+
+        // loops
+        for(int i = 0;i<list.size();i++){
+            System.out.print(list.get(i)+" ");
+        }
+        System.out.println();
     }
 }
