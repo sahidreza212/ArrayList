@@ -29,5 +29,9 @@ public class arrayList {
         // Delete element
         list.remove(2);
         System.out.println(list);
+
+        //Size
+        int size = list.size();
+        System.out.println(size);
     }
 }
