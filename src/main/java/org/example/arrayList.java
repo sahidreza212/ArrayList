@@ -17,5 +17,9 @@ public class arrayList {
         // get element
         int element = list.get(1);
         System.out.println(element);
+
+        // Add in between element
+        list.add(1,1);
+        System.out.println(list);
     }
 }
